@@ -9,3 +9,4 @@ class MenuTableTest(TestCase):
 
         itemstr = item.get_item()
         self.assertEqual(itemstr, "Cake : 200")
+        
